@@ -1,5 +1,5 @@
 import { db } from "../_lib/prisma";
-import RestaurantItem from "./RestaurantItem";
+import RestaurantItem from "./Restaurant-item";
 
 const RestaurantList = async () => {  
 
