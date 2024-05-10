@@ -136,6 +136,10 @@ const ProductDetails = ({product, complementaryProducts}: ProductDetailsProps ) 
                 <h3 className="font-semibold">Sucos</h3>
                 <ProductList products={complementaryProducts}/>
             </div>
+
+            <div className="px-5">
+                <Button className="w-full font-semibold">Adicionar á sacola</Button>
+            </div>
        </div>
      );
 }
